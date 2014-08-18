@@ -5,7 +5,7 @@ import java.nio.ByteBuffer;
 public class DESkeygen {
 
 	private final File file = new File("DESkey.txt");
-	private final int KEY_LENGTH = (16 * 8);
+	private final int KEY_LENGTH = (16 * 4);
 	private final static char[] binArray = "01".toCharArray();
 	private final static char[] hexArray = "0123456789ABCDEF".toCharArray();
 
